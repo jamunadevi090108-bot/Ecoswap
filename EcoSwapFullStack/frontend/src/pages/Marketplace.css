@@ -1,0 +1,28 @@
+.card-content-link {
+  display: block;
+}
+
+.card-content-link > div {
+  padding: 18px;
+}
+
+.card > .card-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 0 18px 18px;
+}
+
+.buy-link {
+  display: inline-block;
+  padding: 10px 18px;
+  border-radius: 24px;
+  background: #101820;
+  color: #fff;
+  font-weight: 700;
+}
+
+.card-actions .view-details {
+  margin-top: 0;
+}

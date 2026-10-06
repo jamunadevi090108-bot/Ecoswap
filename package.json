@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "dev": "npm --prefix .\\EcoSwapFullStack\\frontend run dev",
+    "dev:backend": "npm --prefix .\\EcoSwapFullStack\\backend run dev",
+    "build": "npm --prefix .\\EcoSwapFullStack\\frontend run build"
+  },
+  "dependencies": {
+    "@supabase/ssr": "^0.12.7",
+    "@supabase/supabase-js": "^2.117.2"
+  }
+}
